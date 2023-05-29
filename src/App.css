@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.timer {
+  text-align: center;
+  font-size: 2rem;
+}
+.btn {
+  cursor: pointer;
+}
+.info {
+  margin-right: 0rem;
+  padding-right: 0rem;
+  text-align: right;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
+}
