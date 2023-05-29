@@ -6,9 +6,8 @@ import end from "./end.mp3";
 import start from "./start.mp3";
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
-//var aud;
+var aud;
 function App() {
-  var aud;
   return (
     <>
       <p className="timer" id="timer">
