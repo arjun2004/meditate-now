@@ -6,7 +6,6 @@ import end from "./end.mp3";
 import start from "./start.mp3";
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
-var aud;
 function App() {
   return (
     <>
@@ -23,18 +22,15 @@ function App() {
   );
 }
 function timer() {
-  play(start);
+  new Audio(start).play();
   var sec = 59;
   var timer = setInterval(function () {
     document.getElementById("timer").innerHTML = "00:" + sec;
     sec--;
     if (sec < 0) {
       clearInterval(timer);
-      play(end);
+      new Audio(end).play();
     }
   }, 1000);
-}
-function play(aud) {
-  new Audio(aud).play();
 }
 export default App;
